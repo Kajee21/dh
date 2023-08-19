@@ -112,7 +112,7 @@ export default function Intro() {
           href="https://github.com"
           target="_blank"
         >
-          <TbBrandTelegram />
+          <FaGithubSquare />
         </a>
       </motion.div>
     </section>
