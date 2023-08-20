@@ -24,8 +24,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Levels",
+    hash: "#levels",
   },
   {
     name: "Contact",
@@ -35,43 +35,43 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Code Camp",
+    location: "Jaffna, SL",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I studied before 6 months of training. I found a course as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Jaffna, SL",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I trained as a front-end developer for 2 years. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Student",
+location: "J/M.V.C.C, Meesalai",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a student. My stack includes Html, Java, TypeScript, CSS, PHP and MySQL.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Web Scraping",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I did as a developer on this startup project.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Networking",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
